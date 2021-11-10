@@ -1,0 +1,38 @@
+/*---- MEDIA HERE ----*/
+
+
+@media (max-width: 992px) {
+    main .sidebar {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    header .mobileversion {
+        display: none !important;
+    }
+    header .collapse.in {
+        display: none;
+    }
+
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+    header .centered .d-flex {
+        flex-direction: column;
+    }
+    header .centered .d-flex div {
+        text-align: left;
+
+    }
+    header .centered .d-flex div:nth-child(2) a {
+          padding-left: 7px;
+
+      }
+
+    header .centered .d-flex .col-xs-12 li a {
+       font-size: 13px;
+
+    }
+}
+

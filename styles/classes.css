@@ -1,0 +1,112 @@
+/************ FONT STYLE **********/
+
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../home/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../home/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../home/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../home/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../home/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+}
+
+.font-family-bold {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.font-family-light {
+    font-family: "Roboto-Light", sans-serif;
+}
+
+.font-family-regular {
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+.font-family-medium {
+    font-family: "Roboto-Medium", sans-serif;
+}
+
+.font-family-thin {
+    font-family: "Roboto-Thin", sans-serif;
+}
+
+
+/*--- CLASESS HERE -----*/
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+button {
+    outline: none !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    /* when you press # link pages goes smoothly to top ... */
+}
+
+.icon-humburger {
+    display: block;
+    width: 22px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #000000;
+    margin-top: 5px;
+}
+
+.mobileversion .icon-humburger:nth-child(1) {
+    display: block;
+    width: 22px;
+    height: 3px;
+    border-radius: 1px;
+    background-color: #000000;
+    margin-top: 0;
+}
+
+

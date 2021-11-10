@@ -1,0 +1,19 @@
+body {
+
+}
+
+@media (max-width: 992px) {
+  main{
+    .sidebar {
+      display: none !important;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header{
+    .mobileversion {
+      display: none !important;
+    }
+  }
+}

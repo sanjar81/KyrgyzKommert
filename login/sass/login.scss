@@ -1,0 +1,22 @@
+body {
+  main {
+    .container-fluid {
+      .row {
+        .col-md-3 {
+          .card {
+            form {
+              h2 {
+                margin-top: 0;
+              }
+              border: 2px #bababa solid;
+              padding: 20px;
+              background-color: white;
+              border-radius: 10px;
+              box-shadow: #dcdcdc 0 0 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

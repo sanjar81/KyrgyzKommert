@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cd36fa3-d567-4262-b07a-cd9504a75a44" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="20U7Dk8dq3qMq9u1sdR6IPKkS1Z" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shaxsiy\project2_testing1\home" />
+      <recent name="D:\shaxsiy\project2_testing1\login" />
+      <recent name="D:\shaxsiy\project2_testing1\login\images" />
+      <recent name="D:\shaxsiy\project2_testing1\styles" />
+      <recent name="D:\shaxsiy\project2_testing1\home\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\shaxsiy\project2_testing1" />
+      <recent name="D:\shaxsiy\project2_testing1\login" />
+      <recent name="D:\shaxsiy\project2_testing1\styles" />
+      <recent name="D:\shaxsiy\project2_testing1\login\js" />
+      <recent name="D:\shaxsiy\project2_testing1\login\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cd36fa3-d567-4262-b07a-cd9504a75a44" name="Default Changelist" comment="" />
+      <created>1636087194558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636087194558</updated>
+      <workItem from="1636087195704" duration="2920000" />
+      <workItem from="1636126076766" duration="15000" />
+      <workItem from="1636225429293" duration="4544000" />
+      <workItem from="1636277628527" duration="9525000" />
+      <workItem from="1636308379450" duration="4247000" />
+      <workItem from="1636347146655" duration="535000" />
+      <workItem from="1636347818789" duration="53000" />
+      <workItem from="1636374090027" duration="1048000" />
+      <workItem from="1636383735642" duration="7330000" />
+      <workItem from="1636516720988" duration="1191000" />
+      <workItem from="1636522319484" duration="10428000" />
+      <workItem from="1636553668976" duration="1916000" />
+      <workItem from="1636561061576" duration="6601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

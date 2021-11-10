@@ -1,0 +1,92 @@
+@import url("../../styles/classes.css");
+
+body main .container-fluid .row .col-md-3 .card form {
+    border: 2px #bababa solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #dcdcdc 0 0 20px;
+}
+
+body main .container-fluid .row .col-md-3 .card form h2 {
+    margin-top: 0;
+}
+
+/*# sourceMappingURL=login.bootstrap_css.map */
+
+header .container-fluid {
+    position: relative;
+
+}
+
+header .container-fluid .top-navbar .d-flex p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header .container-fluid .top-navbar .d-flex p:nth-child(2) {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+header .container-fluid {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px lightgrey solid;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100% !important;
+}
+
+.navbar-brand{
+  width: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.mobileversion{
+  margin-right: 15px;
+}
+
+header .container-fluid .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+header .container-fluid p{
+  line-height: 1.1;margin:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.w-100{
+  width: 100%;
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.justify-content-start{
+  justify-content: start;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.align-items-center{
+  align-items: center;
+}
+.h-100{
+  height: 100%;
+}

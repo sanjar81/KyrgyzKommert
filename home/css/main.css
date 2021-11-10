@@ -1,0 +1,155 @@
+/* ----IMPORTIN CSS FILES---- */
+@import url("../../styles/classes.css");
+@import url("../../styles/media.css");
+
+
+/*---- STYLES HERE ----*/
+
+header .container-fluid {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+header .centered ul li a img {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+header .centered ul .text-left a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin: 5px 15px 0 0;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+header .centered ul .text-right a {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 5px 15px 0 0;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    color: black;
+}
+
+header .centered ul li a:hover {
+    background-color: rgba(219, 15, 41, 0.25);
+
+}
+
+header .container-fluid .top-navbar .d-flex p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+header .container-fluid .top-navbar .d-flex p:nth-child(2) {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+header .container-fluid {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px lightgrey solid;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100% !important;
+}
+
+header .container-fluid .centered {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+header .container-fluid p {
+    line-height: 1.1;
+    margin: 0;
+}
+
+.navbar-brand {
+
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.mobileversion {
+    margin-right: 15px;
+}
+
+
+main .container-fluid {
+    margin-top: 30px;
+}
+
+main .container-fluid .row .sidebar {
+    position: relative;
+    padding-left: 0;
+}
+
+main .container-fluid .row .sidebarlinks {
+    position: fixed;
+    top: 50px;
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 60px;
+    box-shadow: lightgrey 2px 0 2px;
+
+}
+
+main .container-fluid .row .sidebarlinks a {
+    text-decoration: none;
+    /*display: block;*/
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin: 0 15px 0 0;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    color: #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+}
+
+main .container-fluid .row .sidebarlinks a img {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+main .container-fluid .row .sidebarlinks a:hover {
+    background-color: rgba(219, 24, 18, 0.25);
+    padding-left: 10px;
+
+
+}
+
+
+
+
