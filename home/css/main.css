@@ -150,6 +150,38 @@ main .container-fluid .row .sidebarlinks a:hover {
 
 }
 
+main .col-md-9 .d-flex {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+main .col-md-9 .d-flex .col-sm-3 img {
+     width: 100%;
+ }
+
+main .col-md-9 .d-flex .col-sm-3 a {
+    width: 130px;
+}
+
+
+main .col-md-9 .d-flex .col-sm-3 {
+     margin-top: 15px;
+     box-sizing: border-box;
+ }
+
+main .col-md-9 .d-flex .col-sm-3 .icon{
+     box-sizing: border-box;
+     padding:20px;
+     width: 130px;
+     height: 130px;
+     background-color: #67aea8;
+     border-radius: 50%;
+    transition: all 0.1s linear;
+ }
+
+main .col-md-9 .d-flex .col-sm-3 a:hover .icon{
+    background-color: #5596aa;
+}
+
 
 
 
