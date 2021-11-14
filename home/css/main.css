@@ -52,10 +52,6 @@ header .centered ul li a img {
     margin-right: 15px;
 }
 
-header .centered ul li a:hover {
-    background-color: rgba(219, 15, 41, 0.25);
-
-}
 
 header .container-fluid .top-navbar .d-flex p:nth-child(1) {
     font-size: 18px;
