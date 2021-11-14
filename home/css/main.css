@@ -1,6 +1,6 @@
 /* ----IMPORTIN CSS FILES---- */
 @import url("../../styles/classes.css");
-@import url("../../styles/media.css");
+@import url("../../home/styles/media.css");
 
 
 /*---- STYLES HERE ----*/
@@ -31,10 +31,10 @@ header .centered ul .text-left a {
     padding-bottom: 7px;
     padding-left: 5px;
     box-sizing: border-box;
-    color: black;
+    color: #bfbfbf;
 }
 
-header .centered ul .text-right a {
+header .centered ul .admin_links a {
     text-decoration: none;
     display: block;
     font-size: 14px;
@@ -46,6 +46,10 @@ header .centered ul .text-right a {
     padding-right: 10px;
     box-sizing: border-box;
     color: black;
+}
+
+header .centered ul li a img {
+    margin-right: 15px;
 }
 
 header .centered ul li a:hover {
@@ -102,6 +106,11 @@ header .container-fluid p {
 }
 
 
+.scrollable-menu{
+    height: 100%;
+    overflow-y: scroll;
+}
+
 main .container-fluid {
     margin-top: 30px;
 }
@@ -121,7 +130,7 @@ main .container-fluid .row .sidebarlinks {
 
 }
 
-main .container-fluid .row .sidebarlinks a {
+main .container-fluid .row .sidebarlinks div:nth-child(1) a {
     text-decoration: none;
     /*display: block;*/
     display: flex;
@@ -130,15 +139,30 @@ main .container-fluid .row .sidebarlinks a {
     margin: 0 15px 0 0;
     font-weight: 400;
     transition: all 0.3s linear;
-    color: #000000;
+    color: #7a7a7a;
     padding-top: 7px;
     padding-bottom: 7px;
-
-
+    font-family: "Roboto-Regular", sans-serif;
 }
 
+main .container-fluid .row .sidebarlinks div:nth-child(2) a {
+    text-decoration: none;
+    /*display: block;*/
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin: 0 15px 0 0;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    color: #0d0d0d;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+
 main .container-fluid .row .sidebarlinks a img {
-    margin-right: 5px;
+    margin-right: 15px;
     width: 25px;
     height: 25px;
 }
@@ -150,38 +174,94 @@ main .container-fluid .row .sidebarlinks a:hover {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********   col-3 sciences  ***********/
+/*main .col-md-9 .center-block{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../images/algebra.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}*/
+
+main .col-md-9 .d-flex .col-md-3 {
+    margin-top: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+}
+
 main .col-md-9 .d-flex {
     flex-wrap: wrap;
     flex-direction: row;
 }
-main .col-md-9 .d-flex .col-sm-3 img {
-     width: 100%;
- }
+main .col-md-9 .d-flex .col-md-3 img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%; /* This if for the object-fit */
+    height: 100%; /* This if for the object-fit */
+    object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+    object-position: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+main .col-md-9 .d-flex .col-md-3 a:hover{
+    cursor: pointer;
+}
 
-main .col-md-9 .d-flex .col-sm-3 a {
+main .col-md-9 .d-flex .col-md-3 .icon {
+    border-radius: 50%;
     width: 130px;
+    height: 130px;
+    position: relative;
+    background-color: skyblue;
+    transition: all 0.15s linear;
+
+}
+main .col-md-9 .d-flex .col-md-3 a:hover .icon{
+    background-color: #5C8CEB;
+}
+main .col-md-9 .d-flex .col-md-3 a {
+    width: 130px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-main .col-md-9 .d-flex .col-sm-3 {
-     margin-top: 15px;
-     box-sizing: border-box;
- }
 
-main .col-md-9 .d-flex .col-sm-3 .icon{
-     box-sizing: border-box;
-     padding:20px;
-     width: 130px;
-     height: 130px;
-     background-color: #67aea8;
-     border-radius: 50%;
-    transition: all 0.1s linear;
- }
 
-main .col-md-9 .d-flex .col-sm-3 a:hover .icon{
-    background-color: #5596aa;
+/******** media for col-md-3 *******/
+
+
+/*@media (min-width: 280px) and (max-width: 500px) {
+    main .col-md-9 .d-flex .col-md-3{
+        width: ;
+    }
 }
-
-
+*/
+/********** goes here ***********/
 
 
