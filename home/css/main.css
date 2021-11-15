@@ -1,5 +1,5 @@
 /* ----IMPORTIN CSS FILES---- */
-@import url("../../styles/classes.css");
+@import url("../../home/styles/classes.css");
 @import url("../../home/styles/media.css");
 
 
@@ -23,7 +23,7 @@ header .centered ul .text-left a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 19px;
+    font-size: 15px;
     margin: 5px 15px 0 0;
     font-weight: 400;
     transition: all 0.3s linear;
@@ -99,6 +99,8 @@ header .container-fluid p {
 
 .mobileversion {
     margin-right: 15px;
+    background-color: transparent;
+    border: 0;
 }
 
 
@@ -126,35 +128,46 @@ main .container-fluid .row .sidebarlinks {
 
 }
 
-main .container-fluid .row .sidebarlinks div:nth-child(1) a {
+
+main .container-fluid .row .sidebarlinks div a {
     text-decoration: none;
     /*display: block;*/
     display: flex;
     align-items: center;
-    font-size: 19px;
     margin: 0 15px 0 0;
     font-weight: 400;
     transition: all 0.3s linear;
-    color: #7a7a7a;
+    color: #000000;
     padding-top: 7px;
     padding-bottom: 7px;
     font-family: "Roboto-Regular", sans-serif;
+    padding-left: 10px;
 }
 
-main .container-fluid .row .sidebarlinks div:nth-child(2) a {
-    text-decoration: none;
-    /*display: block;*/
-    display: flex;
-    align-items: center;
-    font-size: 19px;
-    margin: 0 15px 0 0;
-    font-weight: 400;
-    transition: all 0.3s linear;
-    color: #0d0d0d;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-family: "Roboto-Regular", sans-serif;
+main .container-fluid .row .sidebarlinks div a:hover{
+    background-color: #eaeaea;
 }
+
+
+main .container-fluid .row .sidebarlinks div:nth-child(1) a p{
+    font-size: 15px;
+
+}
+
+/*main .container-fluid .row .sidebarlinks div:nth-child(2) a {*/
+/*    text-decoration: none;*/
+/*    !*display: block;*!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    font-size: 19px;*/
+/*    margin: 0 15px 0 0;*/
+/*    font-weight: 400;*/
+/*    transition: all 0.3s linear;*/
+/*    color: #0d0d0d;*/
+/*    padding-top: 7px;*/
+/*    padding-bottom: 7px;*/
+/*    font-family: "Roboto-Regular", sans-serif;*/
+/*}*/
 
 
 main .container-fluid .row .sidebarlinks a img {
@@ -163,12 +176,6 @@ main .container-fluid .row .sidebarlinks a img {
     height: 25px;
 }
 
-main .container-fluid .row .sidebarlinks a:hover {
-    background-color: rgba(219, 24, 18, 0.25);
-    padding-left: 10px;
-
-
-}
 
 
 
@@ -261,3 +268,28 @@ main .col-md-9 .d-flex .col-md-3 a {
 /********** goes here ***********/
 
 
+/*unordered list styles*/
+
+main ol {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 1.63em;
+    background-color: #ECECEC;
+}
+main ol ol li{
+    font-size: 18px;
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+/******************************/
+
+.collapsing {
+    transition: all 3s linear;
+}
+
+main .collapse.width {
+    height: auto;
+    -webkit-transition: width 0.95s ease;
+    -moz-transition: width 0.95s ease;
+    -o-transition: width 0.95s ease;
+    transition: width 0.95s ease;
+}
