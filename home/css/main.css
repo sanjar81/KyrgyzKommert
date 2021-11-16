@@ -19,7 +19,7 @@ header .centered ul li a img {
     height: 25px;
 }
 
-header .centered ul .text-left a {
+header .centered ul a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -31,22 +31,10 @@ header .centered ul .text-left a {
     padding-bottom: 7px;
     padding-left: 5px;
     box-sizing: border-box;
-    color: #bfbfbf;
+    color: #000000;
 }
 
-header .centered ul .admin_links a {
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-    margin: 5px 15px 0 0;
-    font-weight: 400;
-    transition: all 0.3s linear;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-right: 10px;
-    box-sizing: border-box;
-    color: black;
-}
+
 
 header .centered ul li a img {
     margin-right: 15px;
@@ -81,9 +69,14 @@ header .container-fluid .centered {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 100%;
+    padding: 10px;
+    z-index: 0;
     justify-content: space-between;
-
+    transform: translate(-30px,40px);
 }
+
+
 
 header .container-fluid p {
     line-height: 1.1;
@@ -282,14 +275,21 @@ main ol ol li{
 
 /******************************/
 
-.collapsing {
-    transition: all 3s linear;
-}
 
-main .collapse.width {
-    height: auto;
-    -webkit-transition: width 0.95s ease;
-    -moz-transition: width 0.95s ease;
-    -o-transition: width 0.95s ease;
-    transition: width 0.95s ease;
-}
+
+
+/****************toggle************/
+/*.collapsing {*/
+/*    transform: translate(-700px,0);*/
+/*    transition: transform 3s linear !important;*/
+/*    width: auto!important;*/
+/*}*/
+/*.collapse.in{*/
+/*    transition: all 0.1s linear !important;*/
+/*    height: 100%!important;*/
+/*}*/
+/*.collapse{*/
+/*    transition: all 0.1s linear !important;*/
+/*    height: 100%!important;*/
+/*}*/
+

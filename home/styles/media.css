@@ -37,6 +37,7 @@
 
     }
 
+
     main .col-md-3 .sidebar .sidebarlinks div {
         display: flex;
         flex-direction: column;
@@ -57,6 +58,7 @@
     main .col-md-3.sidebar {
         width: 5%;
     }
+
 }
 
 
