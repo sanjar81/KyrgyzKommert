@@ -115,3 +115,15 @@ html {
 }
 
 
+.left-menu{
+    transform: translateX(0)!important;
+    overflow: auto;
+
+}
+
+.scroll-sidebar{
+    height: calc(100vh - 71px);
+    overflow-y: scroll;
+    padding-bottom: 60px;
+}
+

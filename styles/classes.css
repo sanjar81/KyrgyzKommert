@@ -3,27 +3,27 @@
 
 @font-face {
     font-family: "Roboto-Bold";
-    src: url("../home/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    src: url("../../home/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Light";
-    src: url("../home/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+    src: url("../../home/fonts/Roboto/Roboto-Light.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: url("../home/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    src: url("../../home/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Medium";
-    src: url("../home/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+    src: url("../../home/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Thin";
-    src: url("../home/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+    src: url("../../home/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
 }
 
 .font-family-bold {
@@ -100,17 +100,17 @@ html {
     display: block;
     width: 22px;
     height: 3px;
-    border-radius: 1px;
-    background-color: #000000;
+    border-radius: 3px;
+    background-color: #afafaf;
     margin-top: 5px;
+    z-index: 1;
+    transform-origin: 4px 0;
+    transition: all 0.5s linear,
+    background 0.5s linear,
+    opacity 0.55s ease;
 }
 
 .mobileversion .icon-humburger:nth-child(1) {
-    display: block;
-    width: 22px;
-    height: 3px;
-    border-radius: 1px;
-    background-color: #000000;
     margin-top: 0;
 }
 

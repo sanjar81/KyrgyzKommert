@@ -73,7 +73,7 @@
 }
 
 
-@media (min-width: 280px) and (max-width: 500px) {
+@media (min-width: 280px) {
     header .centered .d-flex {
         flex-direction: column;
     }
@@ -258,5 +258,19 @@
         width: 83.333333333%;
     }
 }
+
+@media (min-width: 835px) {
+    header .container-fluid .centered .text-left {
+        width: 34%!important;
+    }
+}
+
+
+@media (min-width: 280px) and (max-width: 600px) {
+    header .container-fluid .centered .text-left {
+        width: 100%!important;
+    }
+}
+
 
 
