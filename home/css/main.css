@@ -197,6 +197,10 @@ main .container-fluid .row .sidebarlinks a img {
     height: 25px;
 }
 
+main .container-fluid .row .col-md-9 ol ol li:last-child{
+    margin-bottom: 10px;
+}
+
 
 
 
