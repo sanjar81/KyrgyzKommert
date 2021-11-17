@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="../css/main.css">
 
 
+
 </head>
 
 <body>
 
 <header>
-    <div class="container-fluid ">
+    <div class="container-fluid" style="padding-left: 10px">
         <div class="top-navbar ">
             <div class="d-flex w-100 align-items-center justify-content-between">
+
                 <div class="d-flex align-items-center">
-                    <button id="democollapse" type='button' class='btn btn-default mobileversion'
-                            data-target="#demo">
+                    <button id="democollapse" type='button' data-toggle="collapse" class='btn mobileversion'
+                            data-target="#democontent">
                         <span class="icon-humburger"></span>
                         <span class="icon-humburger"></span>
                         <span class="icon-humburger"></span>
@@ -36,32 +38,32 @@
                 </div>
             </div>
             <div class="centered">
-                <div id="demo" class="collapse w-100">
+                <div id="democontent" class="collapse w-100">
                     <ul class="nav d-flex justify-content-between w-100">
                         <div class="col-xs-12 col-sm-6 text-left">
-                            <li><a href="../index.html" class="font-family-regular"><img src="../images/icons/home.png" alt="">Home</a>
+                            <li><a href="../index.html" class="font-family-regular"><img src="../images/icons/home.png" alt="">Главная</a>
                             </li>
-                            <li><a href="lenta.html" class="font-family-regular"><img src="../images/icons/speaker.png" alt="">Lenta</a>
+                            <li><a href="../htmls/lenta.html" class="font-family-regular"><img src="../images/icons/speaker.png" alt="">Лента</a>
                             </li>
-                            <li><a href="#" class="font-family-regular"><img src="../images/icons/library.png"
-                                                                             alt="">Resourses</a></li>
-                            <li><a href="#" class="font-family-regular"><img src="../images/icons/pay.png" alt="">Bank
-                                request</a>
+                            <li><a href="../htmls/recourses.html" class="font-family-regular"><img src="../images/icons/library.png"
+                                                                                                alt="">Учебный материал</a></li>
+                            <li><a href="#" class="font-family-regular"><img src="../images/icons/pay.png" alt="">Банк вапросов</a>
                             </li>
-                            <li><a href="#" class="font-family-regular"><img src="../images/icons/examine.png" alt="">Examine</a>
+                            <li><a href="#" class="font-family-regular"><img src="../images/icons/examine.png" alt="">Экзамены</a>
                             </li>
-                            <li><a href="#" class="font-family-regular"><img src="../images/icons/chat.png" alt="">Feedback</a>
+                            <li><a href="#" class="font-family-regular"><img src="../images/icons/chat.png" alt="">Отправит отзыв</a>
                             </li>
                         </div>
-                        <div class="col-xs-12 col-sm-6 admin_links">
-                            <li><a href="#"><img src="../images/icons/family.png" alt="">Dobavit temu</a></li>
-                            <li><a href="#"><img src="../images/icons/comment.png" alt="">Dobavit temu</a></li>
-                            <li><a href="#"><img src="../images/icons/drawer.png" alt="">Sazdat/redaktirovat zapros</a>
+                        <div class="col-xs-12 col-sm-6">
+                            <li><a href="#"><img src="../images/icons/family.png" alt="">Пользователи</a></li>
+                            <li><a href="#"><img src="../images/icons/comment.png" alt="">Добавит ленту</a></li>
+                            <li><a href="#"><img src="../images/icons/drawer.png" alt="">Добавит тему</a>
                             </li>
-                            <li><a href="#"><img src="../images/icons/board.png" alt="">practice quiz / sazdat silka</a>
+                            <li><a href="#"><img src="../images/icons/board.png" alt="">Добавит учебный материал</a>
                             </li>
-                            <li><a href="#"><img src="../images/icons/contract.png" alt="">sazdat silka examine</a></li>
-                            <li><a href="#"><img src="../images/icons/document.png" alt="">sazdat silka examine</a></li>
+                            <li><a href="#"><img src="../images/icons/contract.png" alt="">Создать/Редактировать вопрос</a></li>
+                            <li><a href="#"><img src="../images/icons/document.png" alt="">Создать (ccылку) practice quiz</a></li>
+                            <li><a href="#"><img src="../images/icons/document.png" alt="">Создать (ccылку) practice quiz</a></li>
 
                         </div>
                     </ul>
@@ -80,15 +82,15 @@
             <div class="col-md-3 col-lg-3 h-100 sidebar">
                 <div class="sidebarlinks scrollable-menu  h-100">
                     <div>
-                        <a href="#" class="d-flex align-items-center">
+                        <a href="../index.html" class="d-flex align-items-center">
                             <img src="../images/icons/home.png" alt="">
                             <p style="margin: 0; padding: 0">Главная</p>
                         </a>
-                        <a href="#">
+                        <a href="../htmls/lenta.html">
                             <img src="../images/icons/speaker.png" alt="">
                             <p style="margin: 0;padding: 0">Лента</p>
                         </a>
-                        <a href="#">
+                        <a href="../htmls/recourses.html">
                             <img src="../images/icons/library.png" alt="">
                             <p style="margin: 0;padding: 0">Учебный материал</p>
                         </a>
@@ -123,7 +125,7 @@
                         <a href="#"><img src="../images/icons/document.png" alt="">
                             <p style="margin: 0;padding: 0">Создать (ccылку) practice quiz</p>
                         </a>
-
+                        <!--shuni rasmini o'zgartirishim kk-->
                         <a href="#"><img src="../images/icons/document.png" alt="">
                             <p style="margin: 0;padding: 0">Создать (ccылку) exam</p>
                         </a>
@@ -135,90 +137,8 @@
 
             <div class="col-md-9 center-block col-lg-9 col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-0">
                 <div class="news">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aliquam animi beatae
-                        consectetur doloribus esse inventore minima odio perspiciatis recusandae, rerum sapiente, soluta
-                        ullam. Corporis, minima, officia? Ad eligendi laboriosam molestias quas reiciendis, saepe
-                        sapiente! Alias dolore dolorem et expedita labore libero mollitia officia quae quam similique?
-                        Eveniet hic illum obcaecati tempore. Ad asperiores dignissimos ea, illum molestiae molestias,
-                        nemo nostrum obcaecati possimus quae quam quisquam quos rem sed totam. Adipisci architecto
-                        atque, beatae commodi cupiditate distinctio ducimus esse eum expedita fugiat illo illum
-                        inventore laboriosam, laborum magnam mollitia nisi nulla perferendis ratione sed similique totam
-                        veniam voluptate? Accusantium ad aperiam at atque commodi consequatur delectus dolor dolore
-                        eaque eligendi est eum exercitationem harum incidunt iusto laboriosam libero modi molestiae nemo
-                        non odit omnis pariatur porro repudiandae, sequi sint veniam voluptatibus! Autem culpa debitis
-                        eius itaque minima quaerat totam. Adipisci est illum magnam, magni quasi sit veritatis?
-                        Accusantium commodi corporis distinctio ducimus facere fuga id itaque labore libero, natus,
-                        possimus recusandae repudiandae ullam! Dolorum ducimus eius illo impedit incidunt laboriosam
-                        nesciunt nobis numquam odit optio perspiciatis, sunt, tempore veniam. A accusamus beatae omnis
-                        quo repellat similique tempora veritatis voluptatem. Ab dicta, dolorum ea enim expedita ipsam
-                        laudantium maiores minima nam officiis possimus quam quidem quos reprehenderit temporibus
-                        voluptas voluptate voluptates. Animi aperiam eum impedit ipsa ipsam iusto mollitia, obcaecati
-                        perferendis perspiciatis quidem quo voluptatum! Adipisci aut autem commodi deserunt ducimus
-                        eveniet, fugit labore maxime nulla pariatur rerum sint! Beatae consectetur doloribus excepturi
-                        id laborum maxime minus, soluta tempora. Nemo nostrum, voluptate! Dolor error laboriosam
-                        nostrum! Aliquid, amet blanditiis doloribus fugiat impedit in incidunt ipsam nam quam quia
-                        quibusdam repudiandae, sequi temporibus velit veritatis. Ab accusamus alias asperiores aut
-                        dolorem ducimus excepturi, fuga fugiat harum in magni perferendis quam recusandae saepe sapiente
-                        unde veritatis. Assumenda atque, beatae cumque dicta et illo libero, modi nesciunt non optio
-                        porro quia repellat sed, totam veniam! Cumque eum expedita itaque mollitia nulla numquam quae
-                        quis sunt ullam. Aliquam commodi, illo quas repellat sequi sint vel. Accusamus adipisci
-                        dignissimos doloribus ducimus, eligendi eum excepturi facere id ipsam laboriosam laborum
-                        molestias nobis porro quaerat quam quia quibusdam quis ratione rem saepe sit tempore tenetur
-                        unde voluptas voluptatibus. Consectetur corporis cum dolorem impedit in ipsam iure sunt! Ab
-                        aliquid assumenda, atque culpa debitis delectus dicta ducimus magnam neque nobis, nostrum
-                        numquam quaerat quidem repellendus saepe sapiente tenetur unde ut veritatis vitae! Cum dicta
-                        dolores est facere id ipsam sunt? Animi architecto, assumenda commodi culpa distinctio eaque
-                        fugit id impedit maxime nemo nihil, officiis quas, quibusdam quidem voluptates voluptatibus
-                        voluptatum. Accusantium autem expedita in iste nam perferendis provident ullam, unde. Culpa enim
-                        eos magnam qui reprehenderit soluta temporibus totam, veniam! Cum ea eligendi, facere incidunt
-                        maiores non obcaecati optio, qui quos repellendus rerum, saepe sit tenetur totam voluptatum?
-                        Accusamus accusantium ad atque aut consequatur consequuntur cumque dignissimos dolor doloremque
-                        dolores eos eveniet fugit harum hic illo inventore ipsa labore magni nesciunt nihil nisi nostrum
-                        obcaecati odio officiis omnis quaerat qui quia quis rerum sint tempore, ullam unde veniam.
-                        Accusantium adipisci beatae blanditiis, consectetur corporis deserunt dicta error explicabo
-                        facere laboriosam magni molestiae perferendis sed vitae voluptas voluptates voluptatibus?
-                        Consequuntur doloremque ducimus impedit labore laboriosam nobis non sed similique vero! Amet
-                        dolores maiores nam quidem vitae! Ea earum et ex magnam nobis perspiciatis placeat ullam vel
-                        velit voluptates! A ab architecto, dolorem ea eum harum hic illo laboriosam laborum libero
-                        maxime, nihil nisi obcaecati possimus, qui recusandae tempore voluptas voluptatem? Consequuntur
-                        doloribus eligendi exercitationem neque qui quis reprehenderit sit! Ab consequuntur enim eos
-                        error explicabo, fugiat harum id labore laborum molestias mollitia nam nesciunt nisi obcaecati
-                        pariatur, perferendis quos, ratione rerum temporibus unde. A ad amet dolores dolorum ex illo
-                        nesciunt nulla perspiciatis quis, ratione reprehenderit vero voluptas voluptates! Accusamus ad
-                        aliquam amet aut commodi cupiditate deleniti doloremque eius est ex exercitationem expedita
-                        explicabo facilis ipsa ipsum laboriosam laudantium libero magni maxime nemo nihil omnis,
-                        pariatur placeat quam quas rerum temporibus voluptate? Accusantium amet architecto aut beatae
-                        dolor, dolorum eligendi esse eum excepturi explicabo hic impedit in iste labore laborum magni
-                        minus modi nam natus necessitatibus nemo neque nesciunt obcaecati omnis, perspiciatis provident
-                        quisquam quod quos ratione reiciendis totam veniam vitae voluptatum! Ad commodi corporis enim
-                        facere molestias porro sequi. Aliquid animi corporis dicta dignissimos distinctio dolores earum
-                        eius error esse id iste itaque laboriosam magnam maxime minima, molestiae molestias, mollitia
-                        nam officiis placeat quisquam reiciendis rerum saepe sed soluta tempora vel velit. Aliquam
-                        aliquid, assumenda aut deserunt enim esse, laudantium magni natus nemo non nulla officia optio
-                        quaerat quasi rerum sint tenetur velit? Esse est inventore repellendus. Ab aliquam architecto at
-                        autem consectetur corporis cum, dolor est eum excepturi fugit laborum minima molestias natus
-                        nihil pariatur perspiciatis qui quibusdam quo, quos rem reprehenderit sed suscipit temporibus
-                        unde. A amet assumenda atque aut beatae dicta distinctio dolore doloribus ducimus ex explicabo
-                        facilis, id illo impedit maxime molestiae nemo nisi possimus quae quibusdam quod reprehenderit
-                        rerum, similique sit voluptatum? Commodi culpa ex perspiciatis sint temporibus? Accusantium
-                        architecto earum facilis illum incidunt laudantium maxime obcaecati quibusdam repudiandae saepe!
-                        Ad assumenda commodi facere harum maiores nam nobis quod recusandae. Accusamus adipisci alias
-                        asperiores aspernatur autem commodi dolorem eligendi explicabo facere inventore iure maiores
-                        minima minus molestias nihil, nisi nobis provident quas rem sapiente tempora totam vero!
-                        Assumenda consequatur, cupiditate dignissimos eaque eveniet excepturi fugit harum impedit neque,
-                        nesciunt nobis pariatur tenetur! Accusantium autem blanditiis commodi, consectetur consequuntur
-                        corporis cum deserunt dignissimos dolore doloribus earum error eum expedita, impedit incidunt
-                        ipsum itaque iusto minus modi molestiae necessitatibus nemo nobis numquam officia possimus quas
-                        quis quo reiciendis rerum saepe sapiente soluta tempora voluptate? Accusamus aliquam animi
-                        asperiores at aut autem commodi corporis deleniti dicta dignissimos dolores esse est fuga
-                        impedit ipsam ipsum iste iure maiores molestiae nam nihil numquam odit placeat, quam quidem
-                        ratione recusandae reiciendis repellendus repudiandae sint soluta ullam vel vero? Animi
-                        excepturi, expedita ipsam laudantium magnam nesciunt quis quisquam sed voluptatem. Amet
-                        aspernatur at blanditiis cupiditate debitis et id illum inventore maxime minus nobis, odit
-                        possimus reiciendis saepe sequi soluta velit voluptas.</p>
+                    <p>This is lenta. Lenta height is auto</p>
                 </div>
-
-
             </div>
 
         </div>
