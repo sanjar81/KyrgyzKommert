@@ -74,21 +74,21 @@
 
 
 @media (min-width: 280px) and (max-width: 500px) {
-    header .centered .d-flex {
+    header .left-menu-wrapper .d-flex {
         flex-direction: column;
     }
 
-    header .centered .d-flex div {
+    header .left-menu-wrapper .d-flex div {
         text-align: left;
 
     }
 
-    header .centered .d-flex div:nth-child(2) a {
+    header .left-menu-wrapper .d-flex div:nth-child(2) a {
         padding-left: 7px;
 
     }
 
-    header .centered .d-flex .col-xs-12 li a {
+    header .left-menu-wrapper .d-flex .col-xs-12 li a {
         font-size: 13px;
 
     }
@@ -105,7 +105,7 @@
         font-size: 12px;
     }
 
-    main .col-md-9 .d-flex .col-md-3 .icon {
+    main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
         width: 90px !important;
         height: 90px !important;
     }
@@ -129,7 +129,7 @@
         font-size: 12px;
     }
 
-    main .col-md-9 .d-flex .col-md-3 .icon {
+    main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
         width: 90px !important;
         height: 90px !important;
     }
@@ -153,7 +153,7 @@
         font-size: 12px;
     }
 
-    main .col-md-9 .d-flex .col-md-3 .icon {
+    main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
         width: 90px !important;
         height: 90px !important;
     }
@@ -178,7 +178,7 @@
         font-size: 13px;
     }
 
-    main .col-md-9 .d-flex .col-md-3 .icon {
+    main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
         width: 100px !important;
         height: 100px !important;
     }
@@ -204,7 +204,7 @@
         font-size: 13px;
     }
 
-    main .col-md-9 .d-flex .col-md-3 .icon {
+    main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
         width: 100px !important;
         height: 100px !important;
     }

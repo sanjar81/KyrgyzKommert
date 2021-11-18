@@ -53,7 +53,7 @@ header {
   margin-right: 15px;
 }
 
-header .container-fluid .centered {
+header .container-fluid .left-menu-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;

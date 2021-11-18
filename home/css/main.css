@@ -5,58 +5,6 @@
 
 /*---- STYLES HERE ----*/
 
-header .container-fluid {
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-
-header .centered ul li a img {
-    margin-right: 5px;
-    width: 25px;
-    height: 25px;
-}
-
-header .centered ul a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    margin: 5px 15px 0 0;
-    font-weight: 400;
-    transition: all 0.3s linear;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 5px;
-    box-sizing: border-box;
-    color: #000000;
-}
-
-
-
-header .centered ul li a img {
-    margin-right: 15px;
-}
-
-
-header .container-fluid .top-navbar .d-flex p:nth-child(1) {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-
-header .container-fluid .top-navbar .d-flex p:nth-child(2) {
-    font-size: 10px;
-    font-weight: 600;
-}
-
-header .container-fluid {
-    background-color: white;
-    overflow: hidden;
-    border-bottom: 1px lightgrey solid;
-}
 
 header {
     position: sticky;
@@ -64,11 +12,32 @@ header {
     top: 0;
     width: 100% !important;
 }
-/*header .container-fluid .top-navbar{*/
-/*    position: relative;*/
-/*}*/
 
-header .container-fluid .centered {
+header .container-fluid {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px lightgrey solid;
+
+}
+
+header .container-fluid p {
+    line-height: 1.1;
+    margin: 0;
+}
+
+
+/********styles inside burger-menu (left menu) *****/
+header .left-menu-wrapper ul li a img {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+header .container-fluid .left-menu-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,7 +46,7 @@ header .container-fluid .centered {
 }
 
 
-header .container-fluid .centered .text-left {
+header .container-fluid .left-menu-wrapper .text-left {
     position: fixed;
     left: 0;
     top: 71px;
@@ -92,49 +61,47 @@ header .container-fluid .centered .text-left {
 }
 
 
-
-header .container-fluid p {
-    line-height: 1.1;
-    margin: 0;
+header .left-menu-wrapper ul a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 5px 15px 0 0;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    color: #000000;
 }
 
-.navbar-brand {
+/*logo styles*/
+header .container-fluid .top-navbar .d-flex .d-flex a div p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+}
 
+
+header .container-fluid .top-navbar .d-flex .d-flex a div p:nth-child(2) {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/*******/
+.navbar-brand {
     padding: 8px;
     box-sizing: border-box;
     margin: 0;
 }
 
-.mobileversion {
-    margin-right: 15px;
-    background-color: transparent;
-    border: 0;
-}
 
-
-
-
-::-webkit-scrollbar {
-    width: 3px;
-    height: 3px
-}
-::-webkit-scrollbar-button {
-    background: #ECECEC;
-}
-::-webkit-scrollbar-track-piece {
-    background: #ECECEC;
-}
-::-webkit-scrollbar-thumb {
-    background: lightgrey;
-}
-
-main .container-fluid {
-    margin-top: 30px;
-}
-
+/*** sidebar styles , that stays at left side until screen 767px then will be hidden  ****/
 main .container-fluid .row .sidebar {
     position: relative;
     padding-left: 0;
+    background-color: white;
 }
 
 main .container-fluid .row .sidebarlinks {
@@ -144,14 +111,24 @@ main .container-fluid .row .sidebarlinks {
     box-shadow: lightgrey 2px 0 2px;
     height: 100%;
     top: 71px;
+    background-color: white;
+}
 
-
+/******** content body styles *******/
+main .container-fluid .row {
+    background-color: #ECECEC;
+    min-height: calc(100vh - 71px);
 }
 
 
+main .container-fluid .row .col-md-9.center-block {
+    padding-top: 30px;
+    height: 100% !important;
+
+}
+
 main .container-fluid .row .sidebarlinks div a {
     text-decoration: none;
-    /*display: block;*/
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -165,30 +142,15 @@ main .container-fluid .row .sidebarlinks div a {
     width: 95%;
 }
 
-main .container-fluid .row .sidebarlinks div a:hover{
+main .container-fluid .row .sidebarlinks div a:hover {
     background-color: #eaeaea;
 }
 
 
-main .container-fluid .row .sidebarlinks div:nth-child(1) a p{
+main .container-fluid .row .sidebarlinks div:nth-child(1) a p {
     font-size: 15px;
 
 }
-
-/*main .container-fluid .row .sidebarlinks div:nth-child(2) a {*/
-/*    text-decoration: none;*/
-/*    !*display: block;*!*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    font-size: 19px;*/
-/*    margin: 0 15px 0 0;*/
-/*    font-weight: 400;*/
-/*    transition: all 0.3s linear;*/
-/*    color: #0d0d0d;*/
-/*    padding-top: 7px;*/
-/*    padding-bottom: 7px;*/
-/*    font-family: "Roboto-Regular", sans-serif;*/
-/*}*/
 
 
 main .container-fluid .row .sidebarlinks a img {
@@ -197,51 +159,29 @@ main .container-fluid .row .sidebarlinks a img {
     height: 25px;
 }
 
-main .container-fluid .row .col-md-9 ol ol li:last-child{
-    margin-bottom: 10px;
+/*    this is test for images/user_results and
+this will be unuseful after you will remove that test images in images/user_results ...*/
+main .container-fluid .row .col-md-9.center-block .news, .news ~ div img {
+    max-width: 100% !important;
+    padding-left: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********   col-3 sciences  ***********/
-/*main .col-md-9 .center-block{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-image: url('../images/algebra.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}*/
-
+/***** Учебный материал / ( subjects/resources.html  ) Educational material / links of subjects with image******/
 main .col-md-9 .d-flex .col-md-3 {
     margin-top: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
     box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
 }
 
-main .col-md-9 .d-flex {
-    flex-wrap: wrap;
-    flex-direction: row;
+main .col-md-9 .d-flex .col-md-3 a div p {
+    max-width: calc(100% - 10px);
 }
+
 main .col-md-9 .d-flex .col-md-3 img {
     position: absolute;
     top: 0;
@@ -255,11 +195,8 @@ main .col-md-9 .d-flex .col-md-3 img {
     padding: 15px;
     box-sizing: border-box;
 }
-main .col-md-9 .d-flex .col-md-3 a:hover{
-    cursor: pointer;
-}
 
-main .col-md-9 .d-flex .col-md-3 .icon {
+main .col-md-9 .d-flex .col-md-3 .subject-wrapper {
     border-radius: 50%;
     width: 130px;
     height: 130px;
@@ -268,9 +205,12 @@ main .col-md-9 .d-flex .col-md-3 .icon {
     transition: all 0.15s linear;
 
 }
-main .col-md-9 .d-flex .col-md-3 a:hover .icon{
+
+main .col-md-9 .d-flex .col-md-3 a:hover .subject-wrapper {
     background-color: #5C8CEB;
 }
+
+
 main .col-md-9 .d-flex .col-md-3 a {
     width: 130px !important;
     display: flex;
@@ -279,34 +219,77 @@ main .col-md-9 .d-flex .col-md-3 a {
 }
 
 
-
-
-/******** media for col-md-3 *******/
-
-
-/*@media (min-width: 280px) and (max-width: 500px) {
-    main .col-md-9 .d-flex .col-md-3{
-        width: ;
-    }
+main .col-md-9 .d-flex {
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-*/
-/********** goes here ***********/
 
 
-/*unordered list styles*/
+/* styles of theme.html */
+
+main .container-fluid .row.d-flex .col-md-9 .current-subject img {
+    width: 60px;
+    height: 60px;
+}
+
+
+main .container-fluid .row.d-flex .col-md-9 .current-subject .subject-url {
+    padding-left: 20px;
+    width: calc(100% - 60px - 20px);
+}
+
+main .container-fluid .row.d-flex .col-md-9 .current-subject .subject-url .d-flex {
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin: 0;
+}
+
+main .container-fluid .row.d-flex .col-md-9 .current-subject .subject-url .d-flex span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main .container-fluid .row.d-flex .col-md-9 .current-subject .subject-url .d-flex ~ div p {
+    width: 100%;
+    font-size: 30px;
+}
+
+main .container-fluid .row.d-flex .col-md-9 .subject-classes .col-lg-3 a {
+    width: 90%;
+}
+
+main .container-fluid .row.d-flex .col-md-9 .subject-classes .col-lg-3 {
+    margin-top: 20px;
+}
+
+main .container-fluid .row.d-flex .col-md-9 .subject-classes {
+    margin-bottom: 30px;
+}
+
+
+/*unordered (<ol>) list styles theme.html*/
 
 main ol {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 1.63em;
-    background-color: #ECECEC;
 }
-main ol ol li{
+
+main ol ol li {
     font-size: 18px;
     font-family: "Roboto-Regular", sans-serif;
 }
 
-#democollapse{
+main .container-fluid .row .col-md-9 ol ol li:last-child {
+    margin-bottom: 10px;
+}
+
+
+/* burger button styles */
+#democollapse {
     line-height: 1;
     font-size: 30px;
     width: 45px;
 }
+
+

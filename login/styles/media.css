@@ -18,19 +18,19 @@
 }
 
 @media (min-width: 280px) and (max-width: 500px) {
-    header .centered .d-flex {
+    header .left-menu-wrapper .d-flex {
         flex-direction: column;
     }
-    header .centered .d-flex div {
+    header .left-menu-wrapper .d-flex div {
         text-align: left;
 
     }
-    header .centered .d-flex div:nth-child(2) a {
+    header .left-menu-wrapper .d-flex div:nth-child(2) a {
           padding-left: 7px;
 
       }
 
-    header .centered .d-flex .col-xs-12 li a {
+    header .left-menu-wrapper .d-flex .col-xs-12 li a {
        font-size: 13px;
 
     }

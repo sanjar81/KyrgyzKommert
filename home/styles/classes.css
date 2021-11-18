@@ -1,6 +1,5 @@
 /************ FONT STYLE **********/
 
-
 @font-face {
     font-family: "Roboto-Bold";
     src: url("../../home/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
@@ -47,14 +46,30 @@
 }
 
 
-/*--- CLASESS HERE -----*/
-.w-100 {
-    width: 100%;
+/******colors***********/
+
+.bg-white {
+    background-color: white !important;
 }
 
-.text-secondary{
-    color: #bfbfbf;
+.bg-green {
+    background-color: #76a900;
 }
+
+.text-white {
+    color: white;
+}
+
+.text-dark {
+    color: black;
+}
+
+
+
+
+
+/*********grid*********/
+
 
 .d-flex {
     display: flex;
@@ -80,22 +95,36 @@
     align-items: center;
 }
 
-.h-100 {
-    height: 100%;!important;
+
+
+
+
+
+
+/********size and styles*******/
+.w-100 {
+    width: 100%;
 }
 
 
+.h-100 {
+    height: 100%;
+!important;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
 
 button {
     outline: none !important;
 }
 
 
-html {
-    scroll-behavior: smooth;
-    /* when you press # link pages goes smoothly to top ... */
-}
 
+
+
+/**********burger classes********/
 .icon-humburger {
     display: block;
     width: 22px;
@@ -114,16 +143,57 @@ html {
     margin-top: 0;
 }
 
+.mobileversion {
+    margin-right: 15px;
+    background-color: transparent;
+    border: 0;
+}
 
-.left-menu{
-    transform: translateX(0)!important;
+
+
+
+
+/**********when press burger this class joins to classes of id = left-menu **************/
+
+.left-menu {
+    transform: translateX(0) !important;
     overflow: auto;
 
 }
 
-.scroll-sidebar{
+
+/**********scrollbar styles*************/
+
+.scroll-sidebar {
     height: calc(100vh - 71px);
     overflow-y: scroll;
     padding-bottom: 60px;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px
+}
+::-webkit-scrollbar-button {
+    background: #ECECEC;
+}
+::-webkit-scrollbar-track-piece {
+    background: #ECECEC;
+}
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+}
+
+
+
+/********************************/
+
+
+
+
+html {
+    scroll-behavior: smooth;
+    /* when you press # link pages goes smoothly to top ... */
 }
 
